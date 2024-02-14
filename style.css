@@ -1,0 +1,86 @@
+html{
+  font-family: "Oswald", sans-serif;
+}
+
+body{
+  margin: 0;
+  background-color: #FFF6DC;
+  color: #222;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+  background-color: #9BABB8;
+  border-bottom: 1px solid black;
+}
+
+.selections-container{
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  margin-top: 5rem;
+}
+
+.player-selection-container,
+.computer-selection-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rock-icon,
+.paper-icon,
+.scissors-icon{
+  width: 6rem;
+}
+
+.user-selection:active,
+.play-again-button:active{
+  transform: scale(0.97);
+  transition: ease-in;
+}
+
+.selection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9.37rem;
+  height: 9.37rem;
+  border: 1px solid black;
+  background-color: #f2f5f5;
+}
+
+.player-selections,
+.computer-selections{
+  display: flex;
+}
+
+.results-container{
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.selection-text-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+#playerChoice,
+#computerChoice{
+  font-size: 1.8rem;
+  margin-top: 0.2rem;
+}
+
+.play-again-button{
+  background-color: #C3E2C2;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 0.7rem 1.3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+

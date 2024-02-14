@@ -4,10 +4,56 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rock, paper, Scissors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Rock, Paper, Scissors</h1>
+  <h1 class="title">Rock, Paper, Scissors</h1>
+  <div class="selections-container">
+    <div class="player-selection-container">
+      <h2>Your Selection:</h2>
+      <div class="player-selections">
+        <div class="selection user-selection user-selection-rock">
+          <input type="image" src="img/icon-rock.svg" id="rock" class="rock-icon">
+        </div>
+        <div class="selection user-selection user-selection-paper">
+          <input type="image" src="img/icon-paper.svg" id="paper" class="paper-icon">
+        </div>
+        <div class="selection user-selection user-selection-scissors">
+          <input type="image" src="img/icon-scissors.svg" id="scissors" class="scissors-icon">
+        </div>
+      </div>
+      <p id="playerChoice" class="content"></p>
+    </div>
+  
+    <div class="computer-selection-container">
+      <h2>Computer Selection:</h2>
+      <div class="computer-selections">
+        <div class="selection computer-selection computer-selection-rock">
+          <img src="img/icon-rock.svg" alt="Rock icon" class="rock-icon">
+        </div>
+        <div class="selection computer-selection computer-selection-paper">
+          <img src="img/icon-paper.svg" alt="Paper icon" class="paper-icon">
+        </div>
+        <div class="selection computer-selection computer-selection-scissors">
+          <img src="img/icon-scissors.svg" alt="Scissors icon" class="scissors-icon">
+        </div>
+      </div>
+      <p id="computerChoice" class="content"></p>
+    </div>
+  </div>
 
+  <div class="results-container">
+    <div class="selection-text-container">
+      
+      
+    </div>
+    <p id="results" class="content"></p>
+    <p id="scores" class="content"></p>
+    <p id="total" class="content"></p>
+  </div>
   <script src="main.js"></script>
 </body>
 </html>
