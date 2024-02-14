@@ -13,7 +13,8 @@ body{
   font-size: 5rem;
   text-align: center;
   margin: 0;
-  background-color: #9BABB8;
+  background-color: #1f2937;
+  color: #f2f5f5;
   border-bottom: 1px solid black;
 }
 
@@ -82,5 +83,23 @@ body{
   padding: 0.7rem 1.3rem;
   font-size: 1rem;
   font-weight: bold;
+}
+
+.footer{
+  background-color: #1f2937;
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer-link{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer span{
+  margin-left: 0.8rem;
 }
 
